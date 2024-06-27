@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import App from './App';
+import App from '../App';
 
 test('displays Hello, World! when button is clicked', () => {
   render(<App />);
